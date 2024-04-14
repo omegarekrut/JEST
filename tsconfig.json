@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // or "ES6" to ensure ESM output
+    "target": "ESNext", // Adjust based on your environment needs
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
